@@ -87,7 +87,7 @@ AdPlus bidder adaptörün çalışabilmesi için Prebid.js konfigürasyonunuza a
 
 #### Reklam Boyutları
 
-Reklam boyutları [Adım 2](#bidder-configuration) yer alan örnekteki mediaTypes nesnesi aracılığı ile sağlanmalıdır. Bu nesnede ilgili reklam tipine ait genişlik ve yükseklik değerlerinin piksel olarak sağlanması zorunludur. AdPlus bidder adaptör yalnızca **banner** tipinde reklamları desteklemektedir.Örnek bir mediaTypes nesnesi aşağıdaki gibidir.
+Reklam boyutları [Adım 2](#bidder-configuration) yer alan örnekteki **mediaTypes**  isimli nesne aracılığı ile sağlanmalıdır. Bu nesnede ilgili reklam tipine ait genişlik ve yükseklik değerlerinin piksel olarak sağlanması zorunludur. AdPlus bidder adaptör yalnızca **banner** tipinde reklamları desteklemektedir.Örnek bir mediaTypes nesnesi aşağıdaki gibidir.
 
 ```javascript
 mediaTypes: {
