@@ -58,7 +58,7 @@ Eğer uygulamanızda head tagi içine Digital Id scriptini yerleştiremiyorsanı
 
 ### Adım 2 - Bidder Konfigürasyonu
 
-AdPlus bidder adaptörün çalışabilmesi için Prebid.js konfigürasyonunuza aşağıdaki gibi örnek bir AdPlus bidder adaptöre ait konfigürasyonları sayfanızın [`<body>`](https://www.w3schools.com/tags/tag_body.asp#:~:text=The%20tag%20defines%20the,%2C%20tables%2C%20lists%2C%20etc.) tagi içine yerleştirilmelidir. Aşağıdaki örnekte sağlanan parametreler envanter id'si **'-1'** ve reklam alanı id'si **'-3'** olan bir reklam birimi için **300 piksel genişlik** ve **250 piksel yükseklik**teki bir alana header bidding yöntemiyle AdPlus tarafından **teklif verilmesini** sağlayacaktır.
+AdPlus bidder adaptörün çalışabilmesi için Prebid.js konfigürasyonunuza aşağıdaki gibi örnek bir AdPlus bidder adaptöre ait konfigürasyonları sayfanızın [`<body>`](https://www.w3schools.com/tags/tag_body.asp#:~:text=The%20tag%20defines%20the,%2C%20tables%2C%20lists%2C%20etc.) tagi içine yerleştirilmelidir. Aşağıdaki örnekte sağlanan parametreler envanter id'si **'-1'** ve reklam alanı id'si **'-3'** olan bir reklam birimi için **300 piksel genişlik** ve **250 piksel yükseklik**te görünecek bir alana header bidding yöntemiyle AdPlus tarafından **teklif verilmesini** sağlayacaktır.
 
 ```html
 <script type="text/javascript">
