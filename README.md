@@ -124,7 +124,7 @@ Sayfanıza AdPlus Prebid.js adaptör ile ekleyeceğiniz **Banner** reklamın zor
 
 ### Adım 3 - Prebid.js'e Reklam Birimlerinin Eklenmesi 
 
-Uygulamanızda yüklü bulunan Prebid.js kütüphanesi aracılığıyla [Adım 2](#bidder-configuration) de yer alan AdPlus'a ait nesnenin yüklenmeis gereklidir. Prebid.js nesnesinin uygulamanızdaki isimlendirilmesine bağlı olarak bu işlem genelde aşağıdaki satırlar aracılığıyla ve **addAdUnits** metotu ile yapılmaktadır.
+Uygulamanızda yüklü bulunan Prebid.js kütüphanesi aracılığıyla [Adım 2](#bidder-configuration)'de yer alan AdPlus'a ait nesnenin Prebid.js'e tanımlanması gereklidir. Prebid.js nesnesinin uygulamanızdaki isimlendirilmesine bağlı olarak bu işlem genelde aşağıdaki satırlar aracılığıyla ve **addAdUnits** metotu ile yapılmaktadır.
 
 ```html
 <script type="text/javascript">
