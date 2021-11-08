@@ -12,6 +12,7 @@ Bu kılavuz AdPlus Prebid.js bidder adaptörünün kullanımına ait geliştiric
     - [Parametre Tanımları](#parameters)
       - [Zorunlu Parametreler](#banner-params)
       - [Opsiyonel Parametreler](#banner-opt-params)
+  - [Adım 3 - Prebid.js'e Reklam Birimlerinin Eklenmesi](#add-units)
 
 <a name="overview"/>
 
@@ -118,3 +119,38 @@ Sayfanıza AdPlus Prebid.js adaptör ile ekleyeceğiniz **Banner** reklamın zor
 - **latitude:** Number - Cihaz enlem değeri.
 - **longitude:** Number - Cihaz boylam değeri.
 - **extraData:** Object < String, Object > - Geliştiricinin göndermek istediği diğer datalar. Key-Value Dizisi
+
+<a name="add-units"/>
+
+### Adım 3 - Prebid.js'e Reklam Birimlerinin Eklenmesi 
+
+Uygulamanızda yüklü bulunan Prebid.js kütüphanesi aracılığıyla [Adım 2](#bidder-configuration) de yer alan AdPlus'a ait nesnenin yüklenmeis gereklidir. Prebid.js nesnesinin uygulamanızdaki isimlendirilmesine bağlı olarak bu işlem genelde aşağıdaki satırlar aracılığıyla ve **addAdUnits** metotu ile yapılmaktadır.
+
+```html
+<script type="text/javascript">
+  var adUnits = [
+        {
+          code: "my-div", // Sayfada reklamı içerek DOM elementi.
+          mediaTypes: {
+            banner: {
+              sizes: [[300, 250]],
+            },
+          },
+          bids: [
+            {
+              bidder: "adplus",
+              params: {
+                inventoryId: "-1",
+                adUnitId: "-3",
+              },
+            },
+          ],
+        },
+      ];
+  
+   // Prebid.js nesnesi  
+   var pbjs = pbjs || {};
+   // Adım 2 de oluşturulan nesne
+   pbjs.addAdUnits(adUnits);
+</script>
+```
