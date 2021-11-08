@@ -92,7 +92,7 @@ Reklam boyutları [Adım 2](#bidder-configuration) yer alan örnekteki **mediaTy
 ```javascript
 mediaTypes: {
   banner: {
-    sizes: [[300, 250]], // Raklamın boyutu piksel tipinde genişlik ve yükseklik değerleri içeren bir array içinde sağlanır
+    sizes: [[300, 250]], // Reklamın boyutu piksel tipinde genişlik ve yükseklik değerleri içeren bir array içinde sağlanır
   },
 },
 ```
