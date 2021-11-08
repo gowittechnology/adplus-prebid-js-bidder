@@ -5,7 +5,7 @@ Bu kılavuz AdPlus Prebid.js bidder adaptörünün kullanımına ait geliştiric
 ## İçerik Tablosu
 
 - [Genel Bakış](#overview)
-- [Web SDK Uygulama Entegrasyonu](#setup)
+- [AdPlus Prebid.js Bidder Adaptör Uygulama Entegrasyonu](#setup)
   - [Adım 1 - AdPlus Digital ID Scriptinin Uygulamaya Yüklenmesi](#include-the-dg-id)
   - [Adım 2 - Bidder Konfigürasyonu](#bidder-configuration)
     - [Reklam Boyutları](#sizing)
