@@ -150,7 +150,7 @@ Uygulamanızda yüklü bulunan Prebid.js kütüphanesi aracılığıyla [Adım 2
   
    // Prebid.js nesnesi  
    var pbjs = pbjs || {};
-   // Adım 2 de oluşturulan nesne
+   // Adım 2 de oluşturulan nesne addAdUnits metotu aracılığıyla Prebid.js'e tanımlanır.
    pbjs.addAdUnits(adUnits);
 </script>
 ```
