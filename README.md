@@ -150,6 +150,5 @@ Uygulamanızda yüklü bulunan Prebid.js kütüphanesi aracılığıyla [Adım 2
   
    var pbjs = pbjs || {}; // Prebid.js nesnesi  
    pbjs.addAdUnits(adUnits); // Reklam Birimlerini içeren nesne addAdUnits metotu aracılığıyla Prebid.js'e tanımlanır.
-
 </script>
 ```
